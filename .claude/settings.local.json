@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep:*)",
+      "Bash(ls:*)",
+      "Bash(find /c/kltn-app-main/src -type f \\\\\\(-name *.ts -o -name *.tsx \\\\\\))",
+      "Bash(find /c/kltn-app-main/app -type f \\\\\\(-name *.ts -o -name *.tsx \\\\\\))",
+      "Bash(find /c/kltn-app-main/lib -type f \\\\\\(-name *.ts -o -name *.tsx \\\\\\))",
+      "Bash(find /c/kltn-app-main/types -type f \\\\\\(-name *.ts \\\\\\))",
+      "Bash(find /c/kltn-app-main/components -type f \\\\\\(-name *.ts -o -name *.tsx \\\\\\))",
+      "Bash(type \"C:\\\\kltn-app-main\\\\app\\\\\\(app\\)\\\\student\\\\topics\\\\register\\\\page.tsx\")",
+      "Bash(cat \"/c/kltn-app-main/app/\\(app\\)/student/topics/register/page.tsx\")",
+      "Bash(npx tsc:*)",
+      "Bash(npx next:*)",
+      "Bash(node -e ':*)",
+      "Bash(dir \"c:\\\\kltn-app-main\\\\components\\\\ui\")",
+      "Bash(dir \"c:\\\\kltn-app-main\\\\app\\\\\\(auth\\)\")",
+      "Bash(dir \"c:\\\\kltn-app-main\\\\components\\\\domain\")",
+      "Bash(dir \"c:\\\\kltn-app-main\\\\app\\\\\\(app\\)\\\\student\\\\topics\")",
+      "Bash(grep -v \"^\\\\s*$\")",
+      "Bash(dir \"c:\\\\kltn-app-main\\\\app\")",
+      "Bash(npx ts-node:*)",
+      "Bash(node -e \"require\\('dotenv'\\)\")",
+      "Bash(node --env-file=.env.local -e ':*)",
+      "Bash(curl -L \"https://upload.wikimedia.org/wikipedia/commons/b/b9/Logo_Tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_H%E1%BB%8Dc_S%C6%B0_Ph%E1%BA%A1m_K%E1%BB%B9_Thu%E1%BA%ADt_TP_H%E1%BB%93_Ch%C3%AD_Minh.png\" -o \"c:/kltn-app-main/app/favicon.ico\")",
+      "Bash(npm install:*)",
+      "Bash(node -e \"require\\('docx'\\); console.log\\('ok'\\)\")",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(git push:*)"
+    ],
+    "additionalDirectories": [
+      "c:\\kltn-app-main"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Next.js build
+.next/
+out/
+
+# Environment variables - KHÔNG ĐƯỢC PUSH LÊN GITHUB
+.env.local
+.env*.local
+
+# Logs
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Office temporary lock files (Word/Excel mở file)
+~$*
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel CLI
+.vercel
+
+# Handover artifacts (prod-only)
+HANDOVER.md
+scripts/_*.tmp
