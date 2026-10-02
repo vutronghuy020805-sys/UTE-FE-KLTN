@@ -41,7 +41,7 @@ const authUrl =
 console.log("\n=== LẤY GOOGLE DRIVE REFRESH TOKEN ===\n");
 console.log("1. Mở link này trong trình duyệt:\n");
 console.log(authUrl);
-console.log("\n2. Đăng nhập bằng bmqtkd@hcmute.edu.vn → Cho phép Drive");
+console.log("\n2. Đăng nhập bằng cdsqlkltn@hcmute.edu.vn → Cho phép Drive");
 console.log("3. Chờ tự động lấy code...\n");
 
 const server = http.createServer(async (req, res) => {
