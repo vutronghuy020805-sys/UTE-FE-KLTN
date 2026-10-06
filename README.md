@@ -2,6 +2,8 @@
 
 Ứng dụng Next.js quản lý khóa luận tốt nghiệp. Dữ liệu lưu trên Google Sheets, file nộp lưu trên Google Drive, đăng nhập bằng Google, email thông báo gửi qua Gmail SMTP. Ứng dụng được deploy trên Vercel.
 
+Cần dựng một bộ mới, độc lập cho đơn vị khác với email khác: xem [HUONG-DAN-TAO-BO-MOI.md](HUONG-DAN-TAO-BO-MOI.md).
+
 ## Tài khoản và dịch vụ
 
 | Thành phần | Giá trị |
